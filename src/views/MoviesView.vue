@@ -43,7 +43,8 @@ onMounted(() => {
 
 <style scoped>
 .movie-poster {
-  height: 400px;
-  object-fit: cover;
+  width: 100%;
+  height: 320px;
+  object-fit: contain;
 }
 </style>
